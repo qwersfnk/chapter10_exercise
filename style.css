@@ -68,12 +68,16 @@ main {
 @media screen and (max-width: 767px) {
   .step-box{
    margin-bottom: 20px;
+   margin:20px auto;
    width:90%;
   }
-  
+
   main{
    width:100%;
-   display:block;
-  }
-  
+   display: block;
+   margin: 50px auto;
+   }
+   .step-box:last-child{
+    margin-right: auto;
+   }
 }
